@@ -1,6 +1,6 @@
 node('master') {
 
-    def servicePrincipalId = '	gaz_azure'
+    def servicePrincipalId = 'gaz_azure'
     def resourceGroup = 'uk-w-azurek8s-rg'
     def aks = 'ukwgazk8s'
 
